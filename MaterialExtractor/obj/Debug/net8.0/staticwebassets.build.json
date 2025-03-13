@@ -1,0 +1,331 @@
+{
+  "Version": 1,
+  "Hash": "PZXqo7kKjs7Qu/Wm89tLAHNfvp6KDyffhbroe/j7/Io=",
+  "Source": "MaterialExtractor",
+  "BasePath": "_content/MaterialExtractor",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MaterialExtractor\\wwwroot",
+      "Source": "MaterialExtractor",
+      "ContentRoot": "E:\\MaterialExtractor\\MaterialExtractor\\wwwroot\\",
+      "BasePath": "_content/MaterialExtractor",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\MaterialExtractor\\MaterialExtractor\\wwwroot\\css\\styles.css",
+      "SourceId": "MaterialExtractor",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\MaterialExtractor\\MaterialExtractor\\wwwroot\\",
+      "BasePath": "_content/MaterialExtractor",
+      "RelativePath": "css/styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s5lbype5nx",
+      "Integrity": "IDqRNgW7mcmeFvvv9McHZYQ7ywUJVZIbCF/3IR3YDt4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
+      "Identity": "E:\\MaterialExtractor\\MaterialExtractor\\wwwroot\\index.html",
+      "SourceId": "MaterialExtractor",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\MaterialExtractor\\MaterialExtractor\\wwwroot\\",
+      "BasePath": "_content/MaterialExtractor",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2i7id1p2wl",
+      "Integrity": "hijydh+SkGe+1P/4mT9DNDKEyqnSfACGBtcl4q8oar4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "E:\\MaterialExtractor\\MaterialExtractor\\wwwroot\\js\\app.js",
+      "SourceId": "MaterialExtractor",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\MaterialExtractor\\MaterialExtractor\\wwwroot\\",
+      "BasePath": "_content/MaterialExtractor",
+      "RelativePath": "js/app#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5p7m96m5h3",
+      "Integrity": "hw6qqEr4Q/KfaITLjsqw7ap3i8/dX9WXX7IFJc5qoek=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\app.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/styles.css",
+      "AssetFile": "E:\\MaterialExtractor\\MaterialExtractor\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "151"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IDqRNgW7mcmeFvvv9McHZYQ7ywUJVZIbCF/3IR3YDt4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 05:17:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IDqRNgW7mcmeFvvv9McHZYQ7ywUJVZIbCF/3IR3YDt4="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.s5lbype5nx.css",
+      "AssetFile": "E:\\MaterialExtractor\\MaterialExtractor\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "151"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IDqRNgW7mcmeFvvv9McHZYQ7ywUJVZIbCF/3IR3YDt4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 05:17:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s5lbype5nx"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IDqRNgW7mcmeFvvv9McHZYQ7ywUJVZIbCF/3IR3YDt4="
+        }
+      ]
+    },
+    {
+      "Route": "index.2i7id1p2wl.html",
+      "AssetFile": "E:\\MaterialExtractor\\MaterialExtractor\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "733"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hijydh+SkGe+1P/4mT9DNDKEyqnSfACGBtcl4q8oar4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 05:17:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2i7id1p2wl"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hijydh+SkGe+1P/4mT9DNDKEyqnSfACGBtcl4q8oar4="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "E:\\MaterialExtractor\\MaterialExtractor\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "733"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hijydh+SkGe+1P/4mT9DNDKEyqnSfACGBtcl4q8oar4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 05:17:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hijydh+SkGe+1P/4mT9DNDKEyqnSfACGBtcl4q8oar4="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.5p7m96m5h3.js",
+      "AssetFile": "E:\\MaterialExtractor\\MaterialExtractor\\wwwroot\\js\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "804"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hw6qqEr4Q/KfaITLjsqw7ap3i8/dX9WXX7IFJc5qoek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 05:17:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5p7m96m5h3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hw6qqEr4Q/KfaITLjsqw7ap3i8/dX9WXX7IFJc5qoek="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.js",
+      "AssetFile": "E:\\MaterialExtractor\\MaterialExtractor\\wwwroot\\js\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "804"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hw6qqEr4Q/KfaITLjsqw7ap3i8/dX9WXX7IFJc5qoek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 05:17:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hw6qqEr4Q/KfaITLjsqw7ap3i8/dX9WXX7IFJc5qoek="
+        }
+      ]
+    }
+  ]
+}

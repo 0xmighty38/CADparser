@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "5JQjIdans6k=",
+  "success": true,
+  "projectFilePath": "E:\\projects\\CADparser\\MaterialExtractor\\MaterialExtractor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ss\\.nuget\\packages\\netdxf\\3.0.1\\netdxf.3.0.1.nupkg.sha512",
+    "C:\\Users\\ss\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.14\\microsoft.netcore.app.ref.8.0.14.nupkg.sha512",
+    "C:\\Users\\ss\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.14\\microsoft.windowsdesktop.app.ref.8.0.14.nupkg.sha512",
+    "C:\\Users\\ss\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.14\\microsoft.aspnetcore.app.ref.8.0.14.nupkg.sha512",
+    "C:\\Users\\ss\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.14\\microsoft.netcore.app.host.win-x64.8.0.14.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "MaterialExtractor depends on netDxf (>= 2.4.0) but netDxf 2.4.0 was not found. netDxf 3.0.1 was resolved instead.",
+      "libraryId": "netDxf",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
