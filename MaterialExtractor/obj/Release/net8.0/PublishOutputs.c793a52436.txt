@@ -1,0 +1,9 @@
+E:\projects\CADparser\publish\MaterialExtractor.exe
+E:\projects\CADparser\publish\appsettings.Development.json
+E:\projects\CADparser\publish\appsettings.json
+E:\projects\CADparser\publish\MaterialExtractor.dll
+E:\projects\CADparser\publish\MaterialExtractor.deps.json
+E:\projects\CADparser\publish\MaterialExtractor.runtimeconfig.json
+E:\projects\CADparser\publish\MaterialExtractor.pdb
+E:\projects\CADparser\publish\ACadSharp.dll
+E:\projects\CADparser\publish\netDxf.dll

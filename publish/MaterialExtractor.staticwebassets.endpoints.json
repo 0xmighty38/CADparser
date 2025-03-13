@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "ManifestType": "Build",
+  "ManifestType": "Publish",
   "Endpoints": [
     {
       "Route": "css/styles.css",

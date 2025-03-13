@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Material Extractor</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <h2>Upload CAD File</h2>
+    <input type="file" id="cadFile" accept=".dxf,.dwg" />
+    <button onclick="extractMaterials()">Extract Materials</button>
+    <h3>Materials List</h3>
+    <table id="materialsTable">
+        <thead>
+            <tr>
+                <th>Material</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

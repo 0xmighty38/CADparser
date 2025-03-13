@@ -1,19 +1,94 @@
 {
   "Version": 1,
-  "ManifestType": "Build",
+  "Hash": "AdXwJHN3oxktBVLMpqmhZUQ4LpixpnZDhBCKdmHeuu4=",
+  "Source": "MaterialExtractor",
+  "BasePath": "_content/MaterialExtractor",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MaterialExtractor\\wwwroot",
+      "Source": "MaterialExtractor",
+      "ContentRoot": "E:\\projects\\CADparser\\MaterialExtractor\\wwwroot\\",
+      "BasePath": "_content/MaterialExtractor",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\projects\\CADparser\\MaterialExtractor\\wwwroot\\css\\styles.css",
+      "SourceId": "MaterialExtractor",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\projects\\CADparser\\MaterialExtractor\\wwwroot\\",
+      "BasePath": "_content/MaterialExtractor",
+      "RelativePath": "css/styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s5lbype5nx",
+      "Integrity": "IDqRNgW7mcmeFvvv9McHZYQ7ywUJVZIbCF/3IR3YDt4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
+      "Identity": "E:\\projects\\CADparser\\MaterialExtractor\\wwwroot\\index.html",
+      "SourceId": "MaterialExtractor",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\projects\\CADparser\\MaterialExtractor\\wwwroot\\",
+      "BasePath": "_content/MaterialExtractor",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ofzdov4abh",
+      "Integrity": "pKhEk2hk/DpS2skdTc3nADAc9gkgaRez7f274T6queY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "E:\\projects\\CADparser\\MaterialExtractor\\wwwroot\\js\\app.js",
+      "SourceId": "MaterialExtractor",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\projects\\CADparser\\MaterialExtractor\\wwwroot\\",
+      "BasePath": "_content/MaterialExtractor",
+      "RelativePath": "js/app#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5p7m96m5h3",
+      "Integrity": "hw6qqEr4Q/KfaITLjsqw7ap3i8/dX9WXX7IFJc5qoek=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\app.js"
+    }
+  ],
   "Endpoints": [
     {
       "Route": "css/styles.css",
-      "AssetFile": "css/styles.css",
+      "AssetFile": "E:\\projects\\CADparser\\MaterialExtractor\\wwwroot\\css\\styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -30,6 +105,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Thu, 13 Mar 2025 05:17:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
@@ -41,16 +120,12 @@
     },
     {
       "Route": "css/styles.s5lbype5nx.css",
-      "AssetFile": "css/styles.css",
+      "AssetFile": "E:\\projects\\CADparser\\MaterialExtractor\\wwwroot\\css\\styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -67,6 +142,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Thu, 13 Mar 2025 05:17:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -75,27 +154,23 @@
           "Value": "s5lbype5nx"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-IDqRNgW7mcmeFvvv9McHZYQ7ywUJVZIbCF/3IR3YDt4="
-        },
-        {
           "Name": "label",
           "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IDqRNgW7mcmeFvvv9McHZYQ7ywUJVZIbCF/3IR3YDt4="
         }
       ]
     },
     {
       "Route": "index.html",
-      "AssetFile": "index.html",
+      "AssetFile": "E:\\projects\\CADparser\\MaterialExtractor\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -112,6 +187,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Thu, 13 Mar 2025 09:11:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
@@ -123,16 +202,12 @@
     },
     {
       "Route": "index.ofzdov4abh.html",
-      "AssetFile": "index.html",
+      "AssetFile": "E:\\projects\\CADparser\\MaterialExtractor\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -149,6 +224,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Thu, 13 Mar 2025 09:11:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -157,27 +236,23 @@
           "Value": "ofzdov4abh"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-pKhEk2hk/DpS2skdTc3nADAc9gkgaRez7f274T6queY="
-        },
-        {
           "Name": "label",
           "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pKhEk2hk/DpS2skdTc3nADAc9gkgaRez7f274T6queY="
         }
       ]
     },
     {
       "Route": "js/app.5p7m96m5h3.js",
-      "AssetFile": "js/app.js",
+      "AssetFile": "E:\\projects\\CADparser\\MaterialExtractor\\wwwroot\\js\\app.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -194,6 +269,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Thu, 13 Mar 2025 05:17:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -202,27 +281,23 @@
           "Value": "5p7m96m5h3"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-hw6qqEr4Q/KfaITLjsqw7ap3i8/dX9WXX7IFJc5qoek="
-        },
-        {
           "Name": "label",
           "Value": "js/app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hw6qqEr4Q/KfaITLjsqw7ap3i8/dX9WXX7IFJc5qoek="
         }
       ]
     },
     {
       "Route": "js/app.js",
-      "AssetFile": "js/app.js",
+      "AssetFile": "E:\\projects\\CADparser\\MaterialExtractor\\wwwroot\\js\\app.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -239,6 +314,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Thu, 13 Mar 2025 05:17:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
