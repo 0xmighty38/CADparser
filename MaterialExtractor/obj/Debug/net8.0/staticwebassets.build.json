@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PZXqo7kKjs7Qu/Wm89tLAHNfvp6KDyffhbroe/j7/Io=",
+  "Hash": "7OuFdB1VHlZRrDveBiRt+Y1mpuwJNnnJhdbJJCVCcVI=",
   "Source": "MaterialExtractor",
   "BasePath": "_content/MaterialExtractor",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "MaterialExtractor\\wwwroot",
       "Source": "MaterialExtractor",
-      "ContentRoot": "E:\\MaterialExtractor\\MaterialExtractor\\wwwroot\\",
+      "ContentRoot": "E:\\projects\\CADparser\\MaterialExtractor\\wwwroot\\",
       "BasePath": "_content/MaterialExtractor",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "E:\\MaterialExtractor\\MaterialExtractor\\wwwroot\\css\\styles.css",
+      "Identity": "E:\\projects\\CADparser\\MaterialExtractor\\wwwroot\\css\\styles.css",
       "SourceId": "MaterialExtractor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MaterialExtractor\\MaterialExtractor\\wwwroot\\",
+      "ContentRoot": "E:\\projects\\CADparser\\MaterialExtractor\\wwwroot\\",
       "BasePath": "_content/MaterialExtractor",
       "RelativePath": "css/styles#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -38,10 +38,10 @@
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
-      "Identity": "E:\\MaterialExtractor\\MaterialExtractor\\wwwroot\\index.html",
+      "Identity": "E:\\projects\\CADparser\\MaterialExtractor\\wwwroot\\index.html",
       "SourceId": "MaterialExtractor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MaterialExtractor\\MaterialExtractor\\wwwroot\\",
+      "ContentRoot": "E:\\projects\\CADparser\\MaterialExtractor\\wwwroot\\",
       "BasePath": "_content/MaterialExtractor",
       "RelativePath": "index#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -52,17 +52,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "2i7id1p2wl",
-      "Integrity": "hijydh+SkGe+1P/4mT9DNDKEyqnSfACGBtcl4q8oar4=",
+      "Fingerprint": "cvkziajr0b",
+      "Integrity": "aP7b72ngxeVzx9SjMw0a/Wf5AB/z/aL7R034YrkMlRo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "E:\\MaterialExtractor\\MaterialExtractor\\wwwroot\\js\\app.js",
+      "Identity": "E:\\projects\\CADparser\\MaterialExtractor\\wwwroot\\js\\app.js",
       "SourceId": "MaterialExtractor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MaterialExtractor\\MaterialExtractor\\wwwroot\\",
+      "ContentRoot": "E:\\projects\\CADparser\\MaterialExtractor\\wwwroot\\",
       "BasePath": "_content/MaterialExtractor",
       "RelativePath": "js/app#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -83,7 +83,7 @@
   "Endpoints": [
     {
       "Route": "css/styles.css",
-      "AssetFile": "E:\\MaterialExtractor\\MaterialExtractor\\wwwroot\\css\\styles.css",
+      "AssetFile": "E:\\projects\\CADparser\\MaterialExtractor\\wwwroot\\css\\styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -120,7 +120,7 @@
     },
     {
       "Route": "css/styles.s5lbype5nx.css",
-      "AssetFile": "E:\\MaterialExtractor\\MaterialExtractor\\wwwroot\\css\\styles.css",
+      "AssetFile": "E:\\projects\\CADparser\\MaterialExtractor\\wwwroot\\css\\styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -164,8 +164,8 @@
       ]
     },
     {
-      "Route": "index.2i7id1p2wl.html",
-      "AssetFile": "E:\\MaterialExtractor\\MaterialExtractor\\wwwroot\\index.html",
+      "Route": "index.cvkziajr0b.html",
+      "AssetFile": "E:\\projects\\CADparser\\MaterialExtractor\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -174,7 +174,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "733"
+          "Value": "795"
         },
         {
           "Name": "Content-Type",
@@ -182,11 +182,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hijydh+SkGe+1P/4mT9DNDKEyqnSfACGBtcl4q8oar4=\""
+          "Value": "\"aP7b72ngxeVzx9SjMw0a/Wf5AB/z/aL7R034YrkMlRo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 05:17:32 GMT"
+          "Value": "Thu, 13 Mar 2025 09:07:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -196,7 +196,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2i7id1p2wl"
+          "Value": "cvkziajr0b"
         },
         {
           "Name": "label",
@@ -204,13 +204,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hijydh+SkGe+1P/4mT9DNDKEyqnSfACGBtcl4q8oar4="
+          "Value": "sha256-aP7b72ngxeVzx9SjMw0a/Wf5AB/z/aL7R034YrkMlRo="
         }
       ]
     },
     {
       "Route": "index.html",
-      "AssetFile": "E:\\MaterialExtractor\\MaterialExtractor\\wwwroot\\index.html",
+      "AssetFile": "E:\\projects\\CADparser\\MaterialExtractor\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -219,7 +219,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "733"
+          "Value": "795"
         },
         {
           "Name": "Content-Type",
@@ -227,11 +227,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hijydh+SkGe+1P/4mT9DNDKEyqnSfACGBtcl4q8oar4=\""
+          "Value": "\"aP7b72ngxeVzx9SjMw0a/Wf5AB/z/aL7R034YrkMlRo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 05:17:32 GMT"
+          "Value": "Thu, 13 Mar 2025 09:07:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -241,13 +241,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hijydh+SkGe+1P/4mT9DNDKEyqnSfACGBtcl4q8oar4="
+          "Value": "sha256-aP7b72ngxeVzx9SjMw0a/Wf5AB/z/aL7R034YrkMlRo="
         }
       ]
     },
     {
       "Route": "js/app.5p7m96m5h3.js",
-      "AssetFile": "E:\\MaterialExtractor\\MaterialExtractor\\wwwroot\\js\\app.js",
+      "AssetFile": "E:\\projects\\CADparser\\MaterialExtractor\\wwwroot\\js\\app.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -292,7 +292,7 @@
     },
     {
       "Route": "js/app.js",
-      "AssetFile": "E:\\MaterialExtractor\\MaterialExtractor\\wwwroot\\js\\app.js",
+      "AssetFile": "E:\\projects\\CADparser\\MaterialExtractor\\wwwroot\\js\\app.js",
       "Selectors": [],
       "ResponseHeaders": [
         {

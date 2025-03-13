@@ -1,15 +1,15 @@
 {
   "Files": [
     {
-      "Id": "E:\\MaterialExtractor\\MaterialExtractor\\wwwroot\\css\\styles.css",
+      "Id": "E:\\projects\\CADparser\\MaterialExtractor\\wwwroot\\css\\styles.css",
       "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
-      "Id": "E:\\MaterialExtractor\\MaterialExtractor\\wwwroot\\index.html",
+      "Id": "E:\\projects\\CADparser\\MaterialExtractor\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "E:\\MaterialExtractor\\MaterialExtractor\\wwwroot\\js\\app.js",
+      "Id": "E:\\projects\\CADparser\\MaterialExtractor\\wwwroot\\js\\app.js",
       "PackagePath": "staticwebassets\\js\\app.js"
     },
     {

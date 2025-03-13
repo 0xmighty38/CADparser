@@ -1,9 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using MaterialExtractor.Models;
-using MaterialExtractor.Services;
 using Microsoft.AspNetCore.Http;
 using System.IO;
+using System.Threading.Tasks;
+using MaterialExtractor.Services;
 
 namespace MaterialExtractor.Controllers
 {
@@ -11,27 +10,46 @@ namespace MaterialExtractor.Controllers
     [ApiController]
     public class MaterialsController : ControllerBase
     {
-        private readonly DxfParserService _dxfParserService;
+        private readonly CadParserService _cadParserService;
 
-        public MaterialsController(DxfParserService dxfParserService)
+        public MaterialsController(CadParserService cadParserService)
         {
-            _dxfParserService = dxfParserService;
+            _cadParserService = cadParserService;
         }
 
         [HttpPost("extract")]
-        public IActionResult ExtractMaterials(IFormFile file)
+        public async Task<IActionResult> ExtractMaterials(IFormFile file)
         {
             if (file == null || file.Length == 0)
                 return BadRequest("No file uploaded.");
 
-            string filePath = Path.Combine(Path.GetTempPath(), file.FileName);
-            using (var stream = new FileStream(filePath, FileMode.Create))
+            var uploadDir = Path.Combine(Directory.GetCurrentDirectory(), "Uploads");
+            Directory.CreateDirectory(uploadDir);
+
+            var filePath = Path.Combine(uploadDir, file.FileName);
+            var fileExtension = Path.GetExtension(file.FileName).ToLower();
+
+            if (fileExtension != ".dxf" && fileExtension != ".dwg")
             {
-                file.CopyTo(stream);
+                return BadRequest("Only DXF and DWG files are supported.");
             }
 
-            var materials = _dxfParserService.ParseDxfFile(filePath);
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await file.CopyToAsync(stream);
+            }
+
+            var materials = _cadParserService.ParseCadFile(filePath);
+
+            if (System.IO.File.Exists(filePath)) System.IO.File.Delete(filePath);
+
             return Ok(materials);
+        }
+
+        [HttpGet("test")]
+        public IActionResult Test()
+        {
+            return Ok("API is working!");
         }
     }
 }

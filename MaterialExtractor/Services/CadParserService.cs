@@ -2,30 +2,51 @@
 using System.Collections.Generic;
 using System.Linq;
 using MaterialExtractor.Models;
-using netDxf;
-using netDxf.Entities;
+using ACadSharp;
+using ACadSharp.Entities;
+using ACadSharp.IO;
+using ACadSharp.Tables;
 
 namespace MaterialExtractor.Services
 {
-    public class DxfParserService
+    public class CadParserService
     {
-        public List<Material> ParseDxfFile(string filePath)
+        public List<Material> ParseCadFile(string filePath)
         {
             var materials = new List<Material>();
 
             try
             {
-                // Load the DXF file
-                DxfDocument doc = DxfDocument.Load(filePath);
+                // Load the CAD file (DWG or DXF)
+                CadDocument doc;
+                string fileExtension = System.IO.Path.GetExtension(filePath).ToLower();
+                if (fileExtension == ".dwg")
+                {
+                    using (var dwgReader = new DwgReader(filePath))
+                    {
+                        doc = dwgReader.Read();
+                    }
+                }
+                else if (fileExtension == ".dxf")
+                {
+                    using (var dxfReader = new DxfReader(filePath))
+                    {
+                        doc = dxfReader.Read();
+                    }
+                }
+                else
+                {
+                    throw new ArgumentException("Unsupported file format. Only DWG and DXF are supported.");
+                }
 
                 // Strategy 1: Extract from Blocks
-                foreach (var block in doc.Blocks)
+                foreach (var blockRecord in doc.BlockRecords)
                 {
-                    string blockName = block.Name;
+                    string blockName = blockRecord.Name;
                     if (string.IsNullOrWhiteSpace(blockName) || blockName.StartsWith("*")) continue;
 
-                    // Count block references
-                    int blockQuantity = doc.Entities.Inserts.Count(insert => insert.Block.Name == blockName);
+                    // Count block references (Insert entities)
+                    int blockQuantity = doc.Entities.OfType<Insert>().Count(insert => insert.Block.Name == blockName);
                     if (blockQuantity > 0)
                     {
                         materials.Add(new Material
@@ -36,9 +57,9 @@ namespace MaterialExtractor.Services
                     }
 
                     // Check attributes in block references
-                    foreach (var insert in doc.Entities.Inserts.Where(i => i.Block.Name == blockName))
+                    foreach (var insert in doc.Entities.OfType<Insert>().Where(i => i.Block.Name == blockName))
                     {
-                        foreach (var attrib in insert.Attributes) // Changed from .Values to direct iteration
+                        foreach (var attrib in insert.Attributes)
                         {
                             if (attrib.Value.Contains("="))
                             {
@@ -62,7 +83,7 @@ namespace MaterialExtractor.Services
                     string layerName = layer.Name;
                     if (string.IsNullOrWhiteSpace(layerName)) continue;
 
-                    int entityCount = doc.Entities.All.Count(e => e.Layer.Name == layerName);
+                    int entityCount = doc.Entities.Count(e => e.Layer.Name == layerName);
                     if (entityCount > 0)
                     {
                         materials.Add(new Material
@@ -74,7 +95,7 @@ namespace MaterialExtractor.Services
                 }
 
                 // Strategy 3: Extract from Text Entities
-                foreach (var text in doc.Entities.Texts)
+                foreach (var text in doc.Entities.OfType<TextEntity>())
                 {
                     string textValue = text.Value?.Trim();
                     if (string.IsNullOrWhiteSpace(textValue)) continue;
@@ -109,7 +130,7 @@ namespace MaterialExtractor.Services
             catch (Exception ex)
             {
                 materials.Clear();
-                materials.Add(new Material { Name = $"Error parsing DXF: {ex.Message}", Quantity = 0 });
+                materials.Add(new Material { Name = $"Error parsing CAD file: {ex.Message}", Quantity = 0 });
             }
 
             return materials;

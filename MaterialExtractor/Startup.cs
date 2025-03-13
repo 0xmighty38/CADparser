@@ -27,7 +27,7 @@ namespace MaterialExtractor
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddTransient<DxfParserService>();
+            services.AddTransient<CadParserService>(); // Changed from DxfParserService
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

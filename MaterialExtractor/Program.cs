@@ -22,5 +22,6 @@ namespace MaterialExtractor
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+
     }
 }

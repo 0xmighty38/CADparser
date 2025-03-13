@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MaterialExtractor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ffa093ed4bd9299a6cd5f3700ca9a4dc9d2a402")]
 [assembly: System.Reflection.AssemblyProductAttribute("MaterialExtractor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MaterialExtractor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

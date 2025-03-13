@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "ACadSharp/1.0.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/ACadSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/ACadSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "netDxf/3.0.1": {
         "type": "package",
         "compile": {
@@ -18,6 +31,30 @@
     }
   },
   "libraries": {
+    "ACadSharp/1.0.9": {
+      "sha512": "Dpu7BSJIa/nt/jRj+1Hh2kE8KZXJEN+x9K3EpNcRpn1kn+I46qZUInZgXdnpWP+oMRHezb5p5AaT57nmZ1MhLA==",
+      "type": "package",
+      "path": "acadsharp/1.0.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "acadsharp.1.0.9.nupkg.sha512",
+        "acadsharp.nuspec",
+        "lib/net48/ACadSharp.dll",
+        "lib/net48/ACadSharp.xml",
+        "lib/net5.0/ACadSharp.dll",
+        "lib/net5.0/ACadSharp.xml",
+        "lib/net6.0/ACadSharp.dll",
+        "lib/net6.0/ACadSharp.xml",
+        "lib/net7.0/ACadSharp.dll",
+        "lib/net7.0/ACadSharp.xml",
+        "lib/netstandard2.0/ACadSharp.dll",
+        "lib/netstandard2.0/ACadSharp.xml",
+        "lib/netstandard2.1/ACadSharp.dll",
+        "lib/netstandard2.1/ACadSharp.xml"
+      ]
+    },
     "netDxf/3.0.1": {
       "sha512": "ylzroT8MYFqIzMklg9TtFJANxvezOEuyEpVntlLLZs6LSRkJ3iF8sHcliwoaCHkfSw3blJGurShr6JpMeWjKhA==",
       "type": "package",
@@ -37,7 +74,8 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "netDxf >= 2.4.0"
+      "ACadSharp >= 1.0.9",
+      "netDxf >= 3.0.1"
     ]
   },
   "packageFolders": {
@@ -90,9 +128,13 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "ACadSharp": {
+            "target": "Package",
+            "version": "[1.0.9, )"
+          },
           "netDxf": {
             "target": "Package",
-            "version": "[2.4.0, )"
+            "version": "[3.0.1, )"
           }
         },
         "imports": [
@@ -135,17 +177,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "MaterialExtractor depends on netDxf (>= 2.4.0) but netDxf 2.4.0 was not found. netDxf 3.0.1 was resolved instead.",
-      "libraryId": "netDxf",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

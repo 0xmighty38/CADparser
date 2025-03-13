@@ -5,7 +5,8 @@
   </PropertyGroup>
 
 <ItemGroup>
-  <PackageReference Include="netDxf" Version="2.4.0" />
+  <PackageReference Include="ACadSharp" Version="1.0.9" />
+  <PackageReference Include="netDxf" Version="3.0.1" />
 </ItemGroup>
 
 
