@@ -1,0 +1,15 @@
+E:\projects\CADparser\MaterialExtractor\publish\MaterialExtractor.exe
+E:\projects\CADparser\MaterialExtractor\publish\publish\web.config
+E:\projects\CADparser\MaterialExtractor\publish\appsettings.Development.json
+E:\projects\CADparser\MaterialExtractor\publish\appsettings.json
+E:\projects\CADparser\MaterialExtractor\publish\publish\appsettings.Development.json
+E:\projects\CADparser\MaterialExtractor\publish\publish\appsettings.json
+E:\projects\CADparser\MaterialExtractor\publish\publish\MaterialExtractor.deps.json
+E:\projects\CADparser\MaterialExtractor\publish\publish\MaterialExtractor.runtimeconfig.json
+E:\projects\CADparser\MaterialExtractor\publish\publish\MaterialExtractor.staticwebassets.endpoints.json
+E:\projects\CADparser\MaterialExtractor\publish\MaterialExtractor.dll
+E:\projects\CADparser\MaterialExtractor\publish\MaterialExtractor.deps.json
+E:\projects\CADparser\MaterialExtractor\publish\MaterialExtractor.runtimeconfig.json
+E:\projects\CADparser\MaterialExtractor\publish\MaterialExtractor.pdb
+E:\projects\CADparser\MaterialExtractor\publish\ACadSharp.dll
+E:\projects\CADparser\MaterialExtractor\publish\netDxf.dll

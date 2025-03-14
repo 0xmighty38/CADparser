@@ -32,3 +32,9 @@ E:\projects\CADparser\MaterialExtractor\obj\Release\net8.0\refint\MaterialExtrac
 E:\projects\CADparser\MaterialExtractor\obj\Release\net8.0\MaterialExtractor.pdb
 E:\projects\CADparser\MaterialExtractor\obj\Release\net8.0\MaterialExtractor.genruntimeconfig.cache
 E:\projects\CADparser\MaterialExtractor\obj\Release\net8.0\ref\MaterialExtractor.dll
+E:\projects\CADparser\MaterialExtractor\bin\Release\net8.0\publish\web.config
+E:\projects\CADparser\MaterialExtractor\bin\Release\net8.0\publish\appsettings.Development.json
+E:\projects\CADparser\MaterialExtractor\bin\Release\net8.0\publish\appsettings.json
+E:\projects\CADparser\MaterialExtractor\bin\Release\net8.0\publish\MaterialExtractor.deps.json
+E:\projects\CADparser\MaterialExtractor\bin\Release\net8.0\publish\MaterialExtractor.runtimeconfig.json
+E:\projects\CADparser\MaterialExtractor\bin\Release\net8.0\publish\MaterialExtractor.staticwebassets.endpoints.json
